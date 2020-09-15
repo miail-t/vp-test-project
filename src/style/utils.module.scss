@@ -1,0 +1,29 @@
+$color--background: #424d4c;
+$color--heading-02: #956944;
+$color--white:#F6F6F5;
+$color--black: #000;
+$color--background-02:#D7A968;
+$color--grey:#666666;
+$color--link: #817D6C;
+
+@mixin heading-02 {
+    font-size: 45px;
+    line-height: 53px;
+    color: $color--heading-02;
+}
+
+
+.container {
+    max-width: 1142px;
+    margin: auto;
+    background: $color--white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 95px;
+
+    .title {
+        @include heading-02;
+    }
+
+
+}

@@ -1,0 +1,37 @@
+@import '../../style/utils.module.scss';
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 50px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.top,
+.bottom {
+    font-size: 30px;
+    line-height: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: $color--white;
+    background: $color--background-02;
+    padding: 14px 38px;
+    border-bottom: 3px solid $color--grey;
+}
+
+.bottom {
+    color: $color--black;
+    padding: 14px 0;
+}

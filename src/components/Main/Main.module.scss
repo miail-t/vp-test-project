@@ -1,0 +1,59 @@
+@import "../../style/utils.module.scss";
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    .title {
+        margin-bottom: 73px;
+    }
+}
+
+.containerHistory {
+    min-height: 383px;
+
+    .title {
+        margin-bottom: 73px;
+        color: $color--white;
+    }
+
+    display: flex;
+    background: $color--heading-02;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    color: $color--white;
+
+    .listItem {
+        margin-bottom: 5px;
+    }
+}
+
+.left {
+    width: 40%;
+
+    .link {
+        display: block;
+        background: $color--white;
+        color: $color--link;
+        border-radius: 50px;
+        padding: 11px 59px;
+        margin-top: 30px;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+.right {
+    width: 60%;
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -161px;
+    }
+}

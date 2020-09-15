@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 2px solid #434F4D;
+    border-radius: 10px;
+    width: 330px;
+    padding: 18px 38px;
+    outline: none;
+
+    &:disabled {
+        color: black;
+    }
+}
